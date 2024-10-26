@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+
+:root{
+    --header-height:56px;
+    --header-padding:28px;
+    --header-total: calc(var(--header-height) + 2 * var(--header-padding));
+    --primary-color:#ffce51;
+    --accent-color:#f3d588;
+}
+body{
+    margin:0;
+    font-family: THICCCBOI, sans-serif !important;
+}
+.custom-theme{
+    background-color: var(--primary-color);
+    border: none;
+    &:focus{
+        box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px var(--accent-color), 0 1px 2px 0 black;    
+    }
+}

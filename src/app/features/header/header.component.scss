@@ -1,0 +1,18 @@
+
+.header{
+    padding: var(--header-padding) 68px;
+    min-height: var(--header-height) !important;
+    min-width: 100%;
+}
+.company-name{
+    color:#19386a;
+}
+.header-menu{
+    a{
+        align-content: center;
+        text-decoration: none;
+        &:visited{
+            color: unset;
+        }
+    }
+}
