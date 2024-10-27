@@ -1,23 +1,35 @@
-<div class="container">
-    <div class="img-wrapper">
-        <img class="hero-img border-round-3xl" src="hero.jpg" alt="hero image">
-        <div class="overlay border-round-3xl"></div>
-        <div class="hero-details">
-            <h1>
-                Votre énergie, notre expertise
-            </h1>
-            <p>
-                Green Volt est une entreprise dynamique et innovante
-                spécialisée dans l'électricité générale, fondée par Elyes
-                Yangui. Forte de son expertise, Green Volt propose une
-                gamme complète de services, allant de l'installation
-                électrique classique à la mise en place de bornes de
-                recharge pour véhicules électriques.
-            </p>
-            <div class="flex justify-content-start gap-5">
-                <button pButton class="custom-theme" size="large" label="Contact"></button>
-                <button pButton class="p-button-primary text-white" [outlined]="true" size="large" label="En savoir plus"></button>
-            </div>
-        </div>
+
+<section
+  class="relative bg-hero bg-cover bg-center bg-no-repeat">
+  <div
+    class="absolute inset-0 bg-gray-900/75  sm:from-gray-900/95 sm:to-gray-900/25 ltr:sm:bg-gradient-to-r rtl:sm:bg-gradient-to-l"></div>
+
+  <div
+    class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+    <div class="max-w-xl text-center sm:text-left">
+      <h1 class="text-3xl font-extrabold text-white sm:text-5xl">
+        Votre énergie,
+
+        <strong class="block font-extrabold text-blue-500"> notre expertise. </strong>
+      </h1>
+
+      <p class="mt-4 max-w-lg  text-white sm:text-xl/relaxed">
+        De l'installation électrique traditionnelle aux bornes de recharge et systèmes domotiques, nous offrons des solutions sur mesure et de haute qualité, adaptées à chaque besoin.
+      </p>
+
+      <div class="mt-8 flex flex-wrap gap-4 text-center">
+        <a
+          href="#"
+          class="block w-full rounded bg-blue-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-blue-700 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto">
+        Découvrir Nos Services
+        </a>
+
+        <a
+          href="#"
+          class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-blue-600 shadow hover:text-blue-700 focus:outline-none focus:ring active:text-blue-500 sm:w-auto">
+          Contact
+        </a>
+      </div>
     </div>
-</div>
+  </div>
+</section>
