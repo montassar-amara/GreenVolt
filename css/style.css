@@ -78,7 +78,7 @@ a:focus {
 .top-bar {
     position: relative;
     height: 90px;
-    background: #0D92F4;
+    background:#030f27 !important;
 }
 
 .top-bar .logo {
@@ -87,9 +87,9 @@ a:focus {
     overflow: hidden;
 }
 .top-bar .logo a{
-    border-color: white;
+    /* border-color: white;
     border-width: 2px;
-    border-style: solid;
+    border-style: solid; */
     display: flex;
     justify-content: start;
 }
@@ -97,10 +97,11 @@ a:focus {
 .top-bar .logo h1 {
     margin: 0;
     color: white;
-    font-size: 49px;
+    font-size: 38px;
     line-height: 60px;
-    font-weight: 700;
+    font-weight: 600;
     padding: 0 5px;
+    align-content: center;
 }
 
 .top-bar .logo img {
@@ -165,7 +166,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
-    background: #0D92F4;
+    background: #030f27 !important;
     transition: .3s;
 }
 
@@ -262,7 +263,7 @@ a:focus {
     }
 }
 
-
+ 
 /*******************************/
 /******** Carousel CSS *********/
 /*******************************/
