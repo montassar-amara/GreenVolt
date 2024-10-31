@@ -2123,6 +2123,10 @@ a:focus {
 .footer .footer-contact p i {
     width: 25px;
 }
+.footer .footer-contact p a,.top-bar .top-bar-text p a {
+    text-decoration: none;
+    color: unset;
+}
 
 .footer .footer-social {
     position: relative;
